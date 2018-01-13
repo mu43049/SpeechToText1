@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/m3">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:gravity="center_vertical"
+		android:text="                        HBT 음성인식"
+		android:textColor="@android:color/white"
+		android:textSize="20dp" />
+
+	<TextView
+		android:id="@+id/result"
+		android:layout_width="match_parent"
+		android:layout_height="434dp"
+		android:gravity="center_vertical"
+		android:textColor="@android:color/white"
+		android:textSize="20dp" />
+
+	<Button
+		android:id="@+id/hide"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="녹음을 하자" />
+
+</LinearLayout>
