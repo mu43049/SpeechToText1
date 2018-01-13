@@ -6,6 +6,6 @@
         android:id="@+id/mic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentRight="fail"
         android:background="@drawable/intro1" />
 </LinearLayout>
