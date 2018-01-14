@@ -72,10 +72,6 @@
         "source": "C:\\android\\SpeechToText1\\app\\src\\main\\res\\drawable-hdpi\\mic.png"
     },
     {
-        "merged": "C:\\android\\SpeechToText1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_main.jpg.flat",
-        "source": "C:\\android\\SpeechToText1\\app\\src\\main\\res\\drawable-hdpi\\main.jpg"
-    },
-    {
         "merged": "C:\\android\\SpeechToText1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_volume_left_1.png.flat",
         "source": "C:\\android\\SpeechToText1\\app\\src\\main\\res\\drawable-hdpi\\volume_left_1.png"
     },
