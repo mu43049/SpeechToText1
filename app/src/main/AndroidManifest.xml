@@ -9,9 +9,9 @@
 		<activity
 			android:label="@string/app_name"
 			android:name=".SpeechToTextActivity" >
-				<intent-filter >
-					<category android:name="android.intent.category.DEFAULT" />
-				</intent-filter>
+			<intent-filter >
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
 		</activity>
 
 		<activity
@@ -23,9 +23,9 @@
 		</activity>
 
 
-		<activity 
-		    android:name=".CustomUIActivity"
-		    android:theme="@android:style/Theme.Translucent" />
+		<activity
+			android:name=".CustomUIActivity"
+			android:theme="@android:style/Theme.Translucent" />
 	</application>
 	<uses-permission android:name="android.permission.INTERNET"/>
 	<uses-permission android:name="android.permission.RECORD_AUDIO"/>

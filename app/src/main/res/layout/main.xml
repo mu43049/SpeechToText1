@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
-	android:background="@drawable/m3"
-	android:orientation="vertical">
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/m3">
 
 	<TextView
 		android:layout_width="match_parent"
-		android:layout_height="112dp"
+		android:layout_height="58dp"
 		android:gravity="center_vertical|center_horizontal"
 
 		android:text="HBT 음성인식 Program"
 		android:textColor="@android:color/white"
 		android:textSize="20dp" />
 
-	<ImageView
-		android:id="@+id/mic"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:layout_alignParentRight="true"
-		android:background="@drawable/main" />
-
 	<TextView
-		android:id="@+id/textView"
+		android:id="@+id/result"
 		android:layout_width="match_parent"
-		android:layout_height="112dp" />
+		android:layout_height="438dp"
+		android:gravity="center_vertical"
+		android:textColor="@android:color/white"
+		android:textSize="25dp" />
 
 	<Button
 		android:id="@+id/hide"
 		android:layout_width="match_parent"
-		android:layout_height="78dp"
+		android:layout_height="wrap_content"
 		android:text="클릭을 하여 대화를 시작하세요" />
+
 </LinearLayout>

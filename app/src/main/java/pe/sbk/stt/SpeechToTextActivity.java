@@ -26,19 +26,19 @@ public class SpeechToTextActivity extends Activity implements OnClickListener {
 		setContentView(R.layout.main);
 
 		findViewById(R.id.hide).setOnClickListener(this);				//내가 만든 activity 이용.
-		
+
 		mResultTextView = (TextView)findViewById(R.id.result);		//결과 출력 뷰
 	}
 
 	@Override
 	public void onClick(View v) {
 		int view = v.getId();
-		
+
 		if(view == R.id.hide){
 			startActivityForResult(new Intent(this, CustomUIActivity.class), MY_UI);			//내가 만든 activity 실행
 		}
 	}
-	
+
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data){
 		if( resultCode == RESULT_OK  && (requestCode == GOOGLE_STT || requestCode == MY_UI) ){		//결과가 있으면
@@ -46,7 +46,7 @@ public class SpeechToTextActivity extends Activity implements OnClickListener {
 		}
 		else{															//결과가 없으면 에러 메시지 출력
 			String msg = null;
-			
+
 			//내가 만든 activity에서 넘어오는 오류 코드를 분류
 			switch(resultCode){
 				case SpeechRecognizer.ERROR_AUDIO:
@@ -75,7 +75,7 @@ public class SpeechToTextActivity extends Activity implements OnClickListener {
 					msg = "입력이 없습니다.";
 					break;
 			}
-			
+
 			if(msg != null)		//오류 메시지가 null이 아니면 메시지 출력
 				Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
 		}
