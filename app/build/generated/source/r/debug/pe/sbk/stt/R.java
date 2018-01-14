@@ -15,22 +15,23 @@ public final class R {
     public static final int m=0x7f010003;
     public static final int m2=0x7f010004;
     public static final int m3=0x7f010005;
-    public static final int mic=0x7f010006;
-    public static final int mic2=0x7f010007;
-    public static final int mic3=0x7f010008;
-    public static final int volume_left_1=0x7f010009;
-    public static final int volume_left_2=0x7f01000a;
-    public static final int volume_left_3=0x7f01000b;
-    public static final int volume_right_1=0x7f01000c;
-    public static final int volume_right_2=0x7f01000d;
-    public static final int volume_right_3=0x7f01000e;
+    public static final int main=0x7f010006;
+    public static final int mic=0x7f010007;
+    public static final int mic2=0x7f010008;
+    public static final int mic3=0x7f010009;
+    public static final int volume_left_1=0x7f01000a;
+    public static final int volume_left_2=0x7f01000b;
+    public static final int volume_left_3=0x7f01000c;
+    public static final int volume_right_1=0x7f01000d;
+    public static final int volume_right_2=0x7f01000e;
+    public static final int volume_right_3=0x7f01000f;
   }
   public static final class id {
     public static final int hide=0x7f020000;
     public static final int mic=0x7f020001;
     public static final int progress=0x7f020002;
-    public static final int result=0x7f020003;
-    public static final int stt_ui=0x7f020004;
+    public static final int stt_ui=0x7f020003;
+    public static final int textView=0x7f020004;
     public static final int volume_left_1=0x7f020005;
     public static final int volume_left_2=0x7f020006;
     public static final int volume_left_3=0x7f020007;
