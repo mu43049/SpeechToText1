@@ -28,7 +28,7 @@ public class CustomUIActivity extends Activity{
 				case END:
 					mProgress.setVisibility(View.VISIBLE);						//말이 끝났으면 프로그레스바 출력(음성인식 중)
 					findViewById(R.id.stt_ui).setVisibility(View.INVISIBLE);	//마이크 이미지 감춤
-					sendEmptyMessageDelayed(FINISH, 5000);				//인식 시간 5초로 설정. 5초 지나면 신경안씀.
+					sendEmptyMessageDelayed(FINISH, 10000);				//인식 시간 5초로 설정. 5초 지나면 신경안씀.
 					break;
 				case FINISH:
 					finish();														//앱 종료

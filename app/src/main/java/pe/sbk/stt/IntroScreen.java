@@ -4,9 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-/**
- * Created by heat_ on 2017-12-03.
- */
+
 
 public class IntroScreen extends Activity{
     @Override
