@@ -17,7 +17,7 @@
 	<TextView
 		android:id="@+id/result"
 		android:layout_width="match_parent"
-		android:layout_height="438dp"
+		android:layout_height="383dp"
 		android:gravity="center_vertical"
 		android:textColor="@android:color/white"
 		android:textSize="25dp" />
@@ -27,5 +27,32 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:text="클릭을 하여 대화를 시작하세요" />
+
+	<Button
+		android:id="@+id/button2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="Button" />
+
+	<TableRow
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
+
+		<Button
+			android:id="@+id/button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="대화 기록 열람" />
+
+		<Button
+			android:id="@+id/button2"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="대화기록 클라우드에 저장" />
+
+	</TableRow>
 
 </LinearLayout>
