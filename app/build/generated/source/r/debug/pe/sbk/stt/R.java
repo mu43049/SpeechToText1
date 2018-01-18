@@ -26,17 +26,19 @@ public final class R {
     public static final int volume_right_3=0x7f01000e;
   }
   public static final class id {
-    public static final int hide=0x7f020000;
-    public static final int mic=0x7f020001;
-    public static final int progress=0x7f020002;
-    public static final int result=0x7f020003;
-    public static final int stt_ui=0x7f020004;
-    public static final int volume_left_1=0x7f020005;
-    public static final int volume_left_2=0x7f020006;
-    public static final int volume_left_3=0x7f020007;
-    public static final int volume_right_1=0x7f020008;
-    public static final int volume_right_2=0x7f020009;
-    public static final int volume_right_3=0x7f02000a;
+    public static final int button=0x7f020000;
+    public static final int button2=0x7f020001;
+    public static final int hide=0x7f020002;
+    public static final int mic=0x7f020003;
+    public static final int progress=0x7f020004;
+    public static final int result=0x7f020005;
+    public static final int stt_ui=0x7f020006;
+    public static final int volume_left_1=0x7f020007;
+    public static final int volume_left_2=0x7f020008;
+    public static final int volume_left_3=0x7f020009;
+    public static final int volume_right_1=0x7f02000a;
+    public static final int volume_right_2=0x7f02000b;
+    public static final int volume_right_3=0x7f02000c;
   }
   public static final class layout {
     public static final int intro=0x7f030000;
