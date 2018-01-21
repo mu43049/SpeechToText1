@@ -91,7 +91,7 @@ public class SpeechToTextActivity extends Activity implements OnClickListener {
 		mResult = data.getStringArrayListExtra(key);		//인식된 데이터 list 받아옴.
 		String[] result = new String[mResult.size()];			//배열생성. 다이얼로그에서 출력하기 위해
 		mResult.toArray(result);									//	list 배열로 변환
-		mResultTextView.setText("인식결과 : "+result[0]);
+		mResultTextView.setText("대화내용 : "+result[0]);
 
 	}
 }
